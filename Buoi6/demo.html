@@ -1,0 +1,175 @@
+<!-- a;dgjakjfaskfjkalejfjawek -->
+
+<!-- * Học Html: thẻ / tag và xem cách các thẻ hiển thị ra màn hình -->
+<!-- ! Khung của 1 trang web -->
+
+<!-- Thẻ head không hiển thị trực quan trên trang web -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>demo code html</title>
+    <meta charset="utf-8">
+    <style>
+        button {
+            padding: 1rem;
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    Hello, world!
+
+    <h1>im h1</h1>
+    <h2>im h1</h2>
+    <h3>im h1</h3>
+    <h4>im h1</h4>
+
+    <!-- <strong>This is a bolded text</strong> -->
+    <!-- <b>this is a bolded text</b> -->
+    <img src="/image/photo.png" alt="test img" width="200px" title="aaaaaaaa">
+    <img src="/image/random.jpg" alt="test img">
+
+    <table border="2" cellspacing="0" cellpadding="15">
+        <tr>
+            <th>Tên</th>
+            <th>Tuổi</th>
+        </tr>
+        <tr>
+            <td>Huong</td>
+            <td>32</td>
+        </tr>
+    </table>
+
+    <table border="1" cellspacing="0" cellpadding="8">
+        <tr>
+            <th colspan="2">Data1</th>
+            <!-- <th>Data2</th> -->
+            <th>Data2</th>
+            <!-- <th>Data3</th> -->
+        </tr>
+        <tr>
+            <td rowspan="2">Van A</td>
+            <!-- <td>32</td> -->
+            <td>32</td>
+            <td>Ha Noi</td>
+        </tr>
+        <tr>
+            <td>Van A</td>
+            <td>32</td>
+            <!-- <td>Ha Noi</td> -->
+
+        </tr>
+        <tr>
+            <td>Van A</td>
+            <td>32</td>
+            <td>Ha Noi</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+    </ul>
+
+    <ol>
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+    </ol>
+
+    <a href="https://www.facebook.com/" target="_blank">Click to visit Facebook</a>
+
+    <!-- form tag
+    ? các thành phần con của thẻ form: form, input, textarea, select, option
+    ? form là 1 thành phần quan trọng của 1 hệ thống, là nơi user có thể nhập dữ liệu và gửi thông tin đi. Về mặt hiển thị
+    ? có thẻ form bao ngoài hay không cũng không ảnh hưởng, còn về chức năng phải có thẻ form bao lại mới thực hiện được-->
+    <!-- !Nên thực hành nhiều -->
+
+    <form action="" method="post">
+        <!-- <label for=""></label> -->
+        Nhập text:
+        <input type="text" placeholder="Nhập dữ liệu" value="abc" name="fullname" required>
+        <br>
+
+        Nhập số:
+        <input type="number" name="" id="">
+        <br>
+
+        Nhập email:
+        <input type="email" placeholder="yourmail@example.com">
+        <br>
+
+        Nhập mật khẩu:
+        <input type="password" placeholder="Enter your password">
+        <br>
+
+        Chọn giới tính:
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        <br>
+
+        Chọn nghề nghiệp:
+        <input type="checkbox">Dev
+        <input type="checkbox">Tester
+        <input type="checkbox">Project Manager
+        <input type="checkbox">Leader
+        <input type="checkbox">Chairman
+        <br>
+
+        Upload file:
+        <input type="file">
+        <br>
+
+        Chọn:
+        <select name="" id="">
+            <option value="">Viet Name</option>
+            <option value="">Korea</option>
+            <option value="">Japan</option>
+            <option value="">Russia</option>
+        </select>
+        <br>
+
+        Chọn nhiều:
+        <select name="" id="" multiple>
+            <option value="">Viet Name</option>
+            <option value="">Korea</option>
+            <option value="">Japan</option>
+            <option value="">Russia</option>
+        </select>
+        <br>
+
+        Nhập nhiều dòng:
+        <textarea name="" id="" cols="30" rows="10">My name is Huong</textarea>
+        <br>
+
+        <!-- * Submit button -->
+        <input type="submit" value="Send in4">
+        <br>
+        <!-- * reset form -->
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- * Button -->
+    <button>
+        This is a button
+    </button>
+
+    <!-- * Thẻ center: căn giữa nội dung bên trong -->
+    <center>This text is centered</center>
+
+    <!-- * các thẻ liên quan đến cấu trúc trang: header, main, footer, nav, section, article -->
+
+
+
+
+    <!-- ex7 -->
+    <form action="">
+
+    </form>
+</body>
+
+</html>
